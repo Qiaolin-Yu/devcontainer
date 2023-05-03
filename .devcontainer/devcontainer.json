@@ -18,7 +18,6 @@
   "mounts": [
     "source=${localEnv:HOME}/.vscode/extensions,target=/root/.vscode-server/extensions,type=bind",
   ],
-  // Ensure mount source directories exist.
   "remoteUser": "root",
   "customizations": {
     "vscode": {
