@@ -1,2 +1,2 @@
 # devcontainer
-My Dev Container for C++
+My Dev Container for C++ (amd64)
