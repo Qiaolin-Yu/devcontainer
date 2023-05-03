@@ -8,7 +8,6 @@
     "--name",
     "amd64-dev-env"
   ],
-  // "init": true,
   "capAdd": [
     "SYS_PTRACE",
   ],
