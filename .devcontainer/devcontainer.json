@@ -24,6 +24,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "zhwu95.riscv",
+        "rust-lang.rust-analyzer",
         "GitHub.copilot",
         "llvm-vs-code-extensions.vscode-clangd", // C++ Code Completion
         "jeff-hykin.better-cpp-syntax", // C++ Syntax
