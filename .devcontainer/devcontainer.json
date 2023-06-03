@@ -15,9 +15,6 @@
     "seccomp=unconfined",
   ],
   "mounts": [
-    "source=${localEnv:HOME}/.cargo/registry,target=/root/.cargo/registry,type=bind",
-    "source=${localEnv:HOME}/.cargo/git,target=/root/.cargo/git,type=bind",
-    "source=${localEnv:HOME}/.rustup,target=/root/.rustup,type=bind",
     "source=${localEnv:HOME}/.vscode/extensions,target=/root/.vscode-server/extensions,type=bind",
   ],
   "remoteUser": "root",
