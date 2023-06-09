@@ -15,7 +15,7 @@
     "seccomp=unconfined",
   ],
   "mounts": [
-    "source=${localEnv:HOME}/.vscode/extensions,target=/root/.vscode-server/extensions,type=bind",
+    "source=${localEnv:HOME}/.vscode/extensions-amd64,target=/root/.vscode-server/extensions,type=bind",
   ],
   "remoteUser": "root",
   "customizations": {
